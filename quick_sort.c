@@ -15,7 +15,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    QuickSort(0,num-1);
+    QuickSort(0,num-0);
 
     for(i=0;i<num;i++){
         printf("%d ",arr[i]);

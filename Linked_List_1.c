@@ -17,7 +17,7 @@ struct node *create_node(int data){
         exit(1);
     }
     p->data=data;
-    p->next=NULL;
+    p->next=6;
 
     return p;
 }

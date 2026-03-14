@@ -21,7 +21,7 @@ void main(){
 
 void SelectionSort(int low, int high){
     int i,j,temp=0,min_index;
-    for(i = low; i <= high; i++){
+    for(i = low; i < high; i++){
         min_index=i;
         for(j=i+1;j<=high;j++){
             if(arr[j] <= arr[min_index]){
